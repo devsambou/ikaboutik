@@ -50,3 +50,20 @@ nav p{
   display: flex;
   flex-direction: row;
 }
+.tailContent{
+  margin-top: 120px;
+}
+.tailContent p{
+  font-size: 50px;
+}
+.button {
+  background-color: #E5D1B8; 
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  gap: 50px 40px;
+}
