@@ -41,7 +41,7 @@ input{
 }
 nav p{
   padding: 35px;
-  background-color: #E5D1B8;
+  background-color: burlywood;
   text-align: center;
   font-size: 45px;
   
@@ -49,21 +49,37 @@ nav p{
 .mela{
   display: flex;
   flex-direction: row;
+  margin-top: 35px;
 }
 .tailContent{
-  margin-top: 120px;
+  margin-top: 50px;
 }
 .tailContent p{
-  font-size: 50px;
+  font-size: 30px;
+}
+.pcont{
+  margin-top: 60px;
+}
+input{
+  background-color: burlywood; 
 }
 .button {
-  background-color: #E5D1B8; 
+  background-color: burlywood; 
   border: none;
   color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 24px;
-  gap: 50px 40px;
+  gap: 550px;
+}
+.button1{
+  display: flex;
+  flex-direction: row;
+  gap: 360px;
+  margin-left: 60px;
+}
+.description p{
+  justify-content: center;
+  font-size: 30px;
 }
